@@ -2,8 +2,11 @@
 
 ## Integrantes:
 Daniel Silva Laser - 222036758
+
 Inácio Leal do Rosario - 232011331
+
 João Davi Ribeiro Tavares Leite - 222001322
+
 Luís Augusto da Silveira Cavalcanti - 231003415
 
 
