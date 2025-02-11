@@ -450,6 +450,7 @@ public class DatabaseController {
      * @throws SQLException
      */
     void inserirProdutoCarrinho(Produto produto,Cliente cliente,int quantidade) throws SQLException {
+        System.out.println("Inserir produto carrinho");
         if (quantidade > 0) {
             String sqlInsert =
                     "INSERT INTO" +

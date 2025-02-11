@@ -1,0 +1,22 @@
+Avaliação das Formas Normais:
+	-Produto:
+		Encontra-se na Primeira Forma Normal pois não há atributo divisível.
+		Encontra-se na Segunda Forma Normal pois todos atributos complementos das chaves são totalmente funcionalmente dependentes da chave.
+		Encontra-se na Terceira Forma Normal por não possuir dependência transitiva.
+	-Carrinho:
+		Encontra-se na Primeira Forma Normal pois não há atributo divisível.
+		Encontra-se na Segunda Forma Normal pois o único atributo complemento da chave é totalmente funcionalmente dependente das chaves CPF_Cliente e ID_Produto.
+		Encontra-se na Terceira Forma Normal pois o único atributo não possui dependência Transitiva
+	-Item-Pedido:
+		Encontra-se na Primeira Forma Normal pois não há atributo divisível.
+		Encontra-se na Segunda Forma Normal pois o atributo Subtotal é totalmente Funcionalmente dependente das Chaves Candidatas ID_Pedido, ID_Produto e Quantidade.
+		Não está na Terceira Forma Normal pois há dependência transitiva no valor de Subtotal, que depende da Quantidade em Item_Pedido e do Preço em Produto, o Preço em Produto por sua vez é dependente funcional da ID em Produto.
+		
+	-Cliente:
+		Encontra-se na Primeira Forma Normal pois não há atributo divisível.
+		Encontra-se na Segunda Forma Normal pois todos atributos complementos das chaves são totalmente funcionalmente dependentes da chave.
+		Encontra-se na Terceira Forma Normal por não possuir dependência transitiva.
+	-Item-Carrinho:
+		Está na Primeira Forma Normal pois não há atributo divisível.
+		Está na Segunda Forma Normal pois o único atributo (Quantidade) é totalmente funcionalmente dependente das chaves ID_Produto e CPF_Cliente
+		Está na Terceira Forma Normal pois não há dependência transitiva.
