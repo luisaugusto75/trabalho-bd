@@ -9,6 +9,7 @@ João Davi Ribeiro Tavares Leite - 222001322
 
 Luís Augusto da Silveira Cavalcanti - 231003415
 
+O codigo sql criador do banco de dados se encontra na pasta Database
 
 Este trabalho tem como objetivo apresentar o desenvolvimento de um banco de dados para um sistema de e-commerce, abordando sua modelagem, estrutura e principais funcionalidades. A implementação de um banco de dados eficiente não apenas melhora o desempenho da aplicação, mas também assegura a integridade e segurança das informações.
 
